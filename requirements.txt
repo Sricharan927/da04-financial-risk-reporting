@@ -1,0 +1,9 @@
+﻿pandas
+numpy
+Faker
+scikit-learn
+openpyxl
+xlsxwriter
+matplotlib
+sqlalchemy
+pytest
