@@ -20,7 +20,7 @@ generate_data.py -> load_db.py -> run_queries.py -> credit_risk.py -> build_boar
 
 ## Tools
 
-Python (pandas, scikit-learn, XlsxWriter), SQL (SQLite), Excel (board pack). Power Automate is replaced by `run_pipeline.py`, which can be scheduled with Windows Task Scheduler and optionally emails the board pack.
+Python (pandas, scikit-learn, XlsxWriter), SQL (SQLite), Excel (board pack and a Power Pivot data model with DAX measures in reports/financial_model.xlsx). Power Automate is replaced by `run_pipeline.py`, which can be scheduled with Windows Task Scheduler and optionally emails the board pack.
 
 ## Setup
 
@@ -67,6 +67,7 @@ Limitation: band rates are computed on all 1,000 customers, including the 750 us
 ![P&L chart](docs/pnl_chart.png)
 ![Variance](docs/variance.png)
 ![Credit risk](docs/credit_risk.png)
+![Power Pivot](docs/power_pivot.png)
 
 ## Testing
 
