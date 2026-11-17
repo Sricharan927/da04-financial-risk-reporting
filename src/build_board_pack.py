@@ -80,7 +80,7 @@ with pd.ExcelWriter(out, engine="xlsxwriter", datetime_format="mmm-yy") as write
     ws.set_column(0, 0, 10)
     ws.set_column(1, 2, 20)
     ws.set_column(3, 5, 14, money)
-    ws.set_column(6, 6, 13, pct1)
+    ws.set_column(6, 6, 16, pct1)
     ws.set_column(7, 7, 13)
     ws.freeze_panes(1, 0)
     ws.autofilter(0, 0, last, 7)
